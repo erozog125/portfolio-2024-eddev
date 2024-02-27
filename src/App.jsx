@@ -7,8 +7,12 @@ import { MobileV } from './components/Mobile/MobileV/MobileV'
 export const App = () => {
   return(
     <>
-      <MobileView><h1>Soy el celular</h1></MobileView>
-      <BrowserView><h1>Soy el navegador</h1></BrowserView>
+      <BrowserView>
+        <BrowserV />
+      </BrowserView>
+      <MobileView>
+        <MobileV />
+      </MobileView>
     </>
   )
 } 

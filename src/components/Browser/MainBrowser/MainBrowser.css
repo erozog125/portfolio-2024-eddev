@@ -1,0 +1,11 @@
+main {
+  width: 100vw;
+  height: 80vh;
+  background-color: #c3c1c1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: #fff;
+}
+
